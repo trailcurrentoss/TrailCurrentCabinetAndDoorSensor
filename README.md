@@ -1,6 +1,6 @@
 # TrailCurrent Cabinet and Door Sensor
 
-Sensor module that monitors cabinet and door open/closed states using reed switches and reports status over a CAN bus interface.
+Sensor module that monitors cabinet and door open/closed states using reed switches and reports status over a CAN bus interface. Part of the [TrailCurrent](https://trailcurrent.com) open-source vehicle platform.
 
 ## Hardware Overview
 
