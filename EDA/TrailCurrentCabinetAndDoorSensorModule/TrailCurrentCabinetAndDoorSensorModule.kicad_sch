@@ -5,316 +5,6 @@
 	(uuid "ecf56a1a-1269-4e46-bc3e-998516b4714d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -439,427 +129,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_CAN_LIN:SN65HVD230"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "SN65HVD230"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf"
-				(at -2.54 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "can transeiver ti low-power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SN65HVD230_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SN65HVD230_1_1"
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "Vref"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "Rs"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "CANH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "CANL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LCSC:ZX-XH2.54-4PWT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ZX-XH2.54-4PWT"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:CONN-SMD_4P-P2.50-WAFER-254W-4P"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C7429673"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ZX-XH2.54-4PWT_0_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 5.08)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 3.81 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -3.81 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 8.89 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -943,27 +212,45 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RF_Module:ESP32-C6-Super-Mini"
+		(symbol "TrailCurrentSymbolLibrary:DS-04"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "SW1"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "DS-04"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "RF_Module:ESP32-C6-Super-Mini"
+			(property "Footprint" "TrailCurrentFootprints:DS-04"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ebay.com/itm/203965125020"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-Position DIP Slide Switch, SPST, 2.54mm Pitch, DIP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -972,7 +259,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Height" "5.5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -981,7 +268,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Manufacturer_Name" "Generic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -990,29 +277,450 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESP32-C6-Super-Mini_1_1"
+			(property "Manufacturer_Part_Number" "DS-04"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DS-04_0_1"
 				(rectangle
-					(start 7.62 29.21)
-					(end 25.4 3.81)
+					(start -5.08 8.89)
+					(end 5.08 -10.16)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(text "C6-Super Mini"
-					(at 15.494 30.988 0)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at -3.048 5.842 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.762 0.762)
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 27.94 0)
-					(length 2.54)
+				(text "2"
+					(at -3.048 3.302 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "3"
+					(at -3.048 0.762 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "4"
+					(at -3.048 -1.778 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "DS-04_1_1"
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TrailCurrentSymbolLibrary:ESP32-C6-SuperMini"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 12.7 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESP32-C6-SuperMini"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TrailCurrentFootprints:ESP32-C6-SuperMini_TH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.espboards.dev/esp32/esp32-c6-super-mini/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESP32-C6 Super Mini Development Board, WiFi 6, BLE 5, Zigbee, Thread"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Teyleten Robot"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5364646"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey Part Number" "1904-ESP32-C6FH4CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "356-ESP32-C6FH4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESP32-C6-SuperMini_0_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 20.32 -24.13)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 5.08)
 					(name "TX"
 						(effects
 							(font
@@ -1028,9 +736,9 @@
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 25.4 0)
-					(length 2.54)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 5.08)
 					(name "RX"
 						(effects
 							(font
@@ -1046,10 +754,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 22.86 0)
-					(length 2.54)
-					(name "IO0"
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GPIO0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1064,10 +772,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 20.32 0)
-					(length 2.54)
-					(name "IO1"
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GPIO1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1082,10 +790,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 17.78 0)
-					(length 2.54)
-					(name "IO2"
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "GPIO2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1100,10 +808,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 15.24 0)
-					(length 2.54)
-					(name "IO3"
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "GPIO3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1118,10 +826,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 12.7 0)
-					(length 2.54)
-					(name "IO4"
+				(pin bidirectional line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "GPIO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1136,10 +844,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 10.16 0)
-					(length 2.54)
-					(name "IO5"
+				(pin bidirectional line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "GPIO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1154,10 +862,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 7.62 0)
-					(length 2.54)
-					(name "IO6"
+				(pin bidirectional line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "GPIO6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1172,10 +880,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 5.08 0)
-					(length 2.54)
-					(name "IO7"
+				(pin bidirectional line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "GPIO7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1190,172 +898,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 27.94 27.94 180)
-					(length 2.54)
+				(pin power_in line
+					(at 25.4 0 180)
+					(length 5.08)
 					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 25.4 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 22.86 180)
-					(length 2.54)
-					(name "3V3(OUT)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 20.32 180)
-					(length 2.54)
-					(name "IO20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 17.78 180)
-					(length 2.54)
-					(name "IO19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 15.24 180)
-					(length 2.54)
-					(name "IO18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 12.7 180)
-					(length 2.54)
-					(name "IO15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 10.16 180)
-					(length 2.54)
-					(name "IO14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 7.62 180)
-					(length 2.54)
-					(name "IO9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 5.08 180)
-					(length 2.54)
-					(name "IO8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1370,30 +916,192 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "GPIO20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "GPIO19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "GPIO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -15.24 180)
+					(length 5.08)
+					(name "GPIO15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -17.78 180)
+					(length 5.08)
+					(name "GPIO14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -20.32 180)
+					(length 5.08)
+					(name "GPIO9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -22.86 180)
+					(length 5.08)
+					(name "GPIO8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:AmazonBuckConverter"
+		(symbol "TrailCurrentSymbolLibrary:Mini560"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 12.7 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "Mini560"
+				(at 12.7 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Converter_DCDC:AmazonBuckConverter"
+			(property "Footprint" "TrailCurrentFootprints:Mini560"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1411,7 +1119,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Mini560 DC-DC Buck Converter Module, 5A, 7-20V to 3.3/5/9/12V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1420,22 +1128,67 @@
 					(hide yes)
 				)
 			)
-			(symbol "AmazonBuckConverter_1_1"
+			(property "Manufacturer_Name" "Generic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "Mini560"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mini560_0_1"
 				(rectangle
-					(start 0 10.16)
-					(end 11.43 2.54)
+					(start 5.08 1.27)
+					(end 20.32 -20.32)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(pin input line
-					(at -2.54 7.62 0)
-					(length 2.54)
-					(name "IN+"
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1450,10 +1203,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "IN-"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VIN+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1468,10 +1221,28 @@
 						)
 					)
 				)
-				(pin input line
-					(at 13.97 7.62 180)
-					(length 2.54)
-					(name "OUT+"
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1487,9 +1258,644 @@
 					)
 				)
 				(pin input line
-					(at 13.97 5.08 180)
-					(length 2.54)
-					(name "OUT-"
+					(at 12.7 -25.4 90)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "VOUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "VOUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TrailCurrentSymbolLibrary:S2B-XH-SM4-TB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "S2B-XH-SM4-TB"
+				(at -3.81 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TrailCurrentFootprints:JST_S2B-XH-SM4-TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "JST XH 2-pin SMD Connector, 2.50mm Pitch, Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "S2B-XH-SM4-TB_0_0"
+				(rectangle
+					(start -3.81 -2.54)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -3.175 2.2225)
+					(end -1.5875 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -0.3175)
+					(end -1.5875 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TrailCurrentSymbolLibrary:S4B-XH-SM4-TB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -3.81 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "S4B-XH-SM4-TB"
+				(at -3.81 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TrailCurrentFootprints:JST_S4B-XH-SM4-TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "JST XH 4-pin SMD Connector, 2.50mm Pitch, Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C161861"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey Part Number" "455-2262-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "S4B-XH-SM4-TB_0_0"
+				(rectangle
+					(start -3.81 -7.62)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -3.175 2.2225)
+					(end -1.5875 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -0.3175)
+					(end -1.5875 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -2.8575)
+					(end -1.5875 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -5.3975)
+					(end -1.5875 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TrailCurrentSymbolLibrary:SN65HVD230DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SN65HVD230DR"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TrailCurrentFootprints:SN65HVD230DR"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn65hvd230"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3 V CAN Transceiver with Standby Mode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-SN65HVD230DR"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN65HVD230DR?qs=QViXGNcIEAtifeQR3pYVUQ%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C12084"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey Part Number" "296-11654-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SN65HVD230DR"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SN65HVD230DR_0_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1497,6 +1903,96 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "RS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1757,6 +2253,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1859,269 +2480,65 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 162.56 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e67b0ce-2896-41a8-9cb3-2f460841694a")
-	)
-	(junction
-		(at 173.99 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f88bec3-2665-45a8-a2ea-a01ee4b8a024")
-	)
-	(junction
-		(at 173.99 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84050b43-2fca-4ce0-b965-e5f23a6db509")
+	(no_connect
+		(at 50.8 107.95)
+		(uuid "123a4b22-1444-472a-82e5-a07fe7cf29ef")
 	)
 	(no_connect
-		(at 222.25 76.2)
-		(uuid "3990b5b9-4bd1-4c13-a7e3-c57767302e85")
+		(at 97.79 162.56)
+		(uuid "265b096c-341e-4eb3-a88b-2419d5bbac2f")
 	)
 	(no_connect
-		(at 222.25 92.71)
-		(uuid "87fd971a-16b5-4a04-8789-8c0f18180f38")
+		(at 50.8 110.49)
+		(uuid "a41debe6-e4fb-4a02-8291-0b5f2548c8fc")
 	)
 	(no_connect
-		(at 213.36 46.99)
-		(uuid "9e2ccedc-461f-4d40-901e-617b75522893")
+		(at 40.64 149.86)
+		(uuid "d42f7b1d-6263-4921-990d-f7e41b3c93a7")
 	)
 	(wire
 		(pts
-			(xy 179.07 125.73) (xy 179.07 120.65)
+			(xy 63.5 63.5) (xy 63.5 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "068ff23e-1ccd-435a-b2be-ea7b81b02557")
+		(uuid "7afc7088-c0a5-4d01-aa6e-3855319e8059")
 	)
 	(wire
 		(pts
-			(xy 173.99 111.76) (xy 173.99 125.73)
+			(xy 59.69 165.1) (xy 69.85 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1520452e-b07c-4f49-a0db-1fc0f963eccb")
+		(uuid "80b0933c-762b-4dc1-8d9a-2d80e2cb4741")
 	)
 	(wire
 		(pts
-			(xy 242.57 44.45) (xy 233.68 44.45)
+			(xy 49.53 63.5) (xy 63.5 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f34289b-039a-40c0-9528-0028470a37e3")
+		(uuid "a7099ae8-3c02-457d-b68e-861fc66079e9")
 	)
 	(wire
 		(pts
-			(xy 209.55 49.53) (xy 213.36 49.53)
+			(xy 49.53 167.64) (xy 69.85 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f3e5f11-5efb-4561-9eae-56ae50e4c3b2")
+		(uuid "e3b0e598-f5d4-487c-996e-849555d1201f")
 	)
-	(wire
-		(pts
-			(xy 173.99 125.73) (xy 179.07 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30196424-936f-431d-9d35-59c88e7a06d1")
-	)
-	(wire
-		(pts
-			(xy 76.2 40.64) (xy 82.55 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46bcd55f-51f6-4b2e-b7a0-4b9961edb014")
-	)
-	(wire
-		(pts
-			(xy 242.57 46.99) (xy 233.68 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6174f465-73fc-4cb0-892a-7c632d0533ca")
-	)
-	(wire
-		(pts
-			(xy 173.99 99.06) (xy 173.99 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae419ba-b141-4bc0-9f8e-64f33262cdd0")
-	)
-	(wire
-		(pts
-			(xy 113.03 38.1) (xy 99.06 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84f370d6-3097-4252-b5eb-7ba1fe958e40")
-	)
-	(wire
-		(pts
-			(xy 172.72 125.73) (xy 173.99 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89d1371c-df00-4d53-97d7-9316ce55a1e2")
-	)
-	(wire
-		(pts
-			(xy 207.01 41.91) (xy 213.36 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "907231fd-d8b2-49e4-b38a-1abb89f8ff5f")
-	)
-	(wire
-		(pts
-			(xy 179.07 120.65) (xy 185.42 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97cee606-1d09-4083-9c13-8e1e249a9b47")
-	)
-	(wire
-		(pts
-			(xy 170.18 99.06) (xy 173.99 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b462323-6702-43e8-80d8-ffa031f06db0")
-	)
-	(wire
-		(pts
-			(xy 76.2 38.1) (xy 82.55 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c72f781-c8c5-40b2-8066-faae7dc6922f")
-	)
-	(wire
-		(pts
-			(xy 113.03 40.64) (xy 113.03 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f8da2f-0e91-4c55-86e5-8161f266bbf5")
-	)
-	(wire
-		(pts
-			(xy 162.56 118.11) (xy 185.42 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a77a9bf5-7835-4663-836a-ac148f680327")
-	)
-	(wire
-		(pts
-			(xy 177.8 115.57) (xy 185.42 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a944a2e4-e9f8-4da0-848a-3c4988727719")
-	)
-	(wire
-		(pts
-			(xy 158.75 118.11) (xy 162.56 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acb3e653-f84b-4ed7-adb6-ceb7bdb918c7")
-	)
-	(wire
-		(pts
-			(xy 223.52 57.15) (xy 223.52 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae31a942-e2d8-4806-860a-b2dca4476783")
-	)
-	(wire
-		(pts
-			(xy 207.01 44.45) (xy 213.36 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b30bec8b-8d0e-4804-9df1-6752edf7dba0")
-	)
-	(wire
-		(pts
-			(xy 173.99 99.06) (xy 177.8 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d70ff3e2-cbbe-46d2-bac5-4e86a9d1588d")
-	)
-	(wire
-		(pts
-			(xy 177.8 99.06) (xy 177.8 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e055014c-e1a2-46ac-b023-d8a77b1fffc9")
-	)
-	(wire
-		(pts
-			(xy 99.06 40.64) (xy 113.03 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f517eef5-4dc2-41c8-8c87-9b495bd61c13")
-	)
-	(global_label "DHT_READING"
+	(global_label "ADDR02"
 		(shape input)
-		(at 146.05 54.61 180)
+		(at 34.29 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2129,53 +2546,9 @@
 			)
 			(justify right)
 		)
-		(uuid "162d7980-d6d1-44aa-b998-c0f096cd783c")
+		(uuid "0880a7cf-74ad-42a5-9063-9ed6f69d639e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.5462 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_TX"
-		(shape input)
-		(at 207.01 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38d0ee06-c22d-41f8-8629-702250ce46b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.191 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DHT_READING"
-		(shape input)
-		(at 158.75 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5cc8f414-62a5-468a-981d-c6e960b697b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.2462 118.11 0)
+			(at 23.9872 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +2560,7 @@
 	)
 	(global_label "CANL"
 		(shape input)
-		(at 242.57 46.99 0)
+		(at 97.79 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2195,21 +2568,65 @@
 			)
 			(justify left)
 		)
-		(uuid "6825ad76-91ca-4fb6-a9a8-87fb95cd6741")
+		(uuid "1b6e324c-c6a2-498c-8567-a0fbc6e591bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.2724 46.99 0)
+			(at 105.4924 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW06"
+		(shape input)
+		(at 85.09 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bf13a67-c3bc-4afd-94b7-85fb598782e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7549 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW09"
+		(shape input)
+		(at 85.09 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c805d0d-7826-4faf-9513-7291c3db4590")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7549 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "CAN_TX"
 		(shape input)
-		(at 168.91 57.15 0)
+		(at 50.8 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2217,9 +2634,9 @@
 			)
 			(justify left)
 		)
-		(uuid "861f6c82-9164-41f2-b301-2d6aa75e6c93")
+		(uuid "266f7002-d2dd-4e50-9deb-82cfbfef6da9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.729 57.15 0)
+			(at 60.619 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,31 +2646,31 @@
 			)
 		)
 	)
-	(global_label "CAN_RX"
+	(global_label "RSW04"
 		(shape input)
-		(at 168.91 52.07 0)
+		(at 85.09 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "8bdcc091-325d-47c6-a4e8-ab55ee5b4035")
+		(uuid "2f0b4989-888d-45d7-bffd-a842d8608917")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.0314 52.07 0)
+			(at 75.7549 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "CANL"
 		(shape input)
-		(at 215.9 86.36 180)
+		(at 90.17 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2261,9 +2678,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b42e51a1-3b3f-4ae6-9b02-94df95941a15")
+		(uuid "377e4901-77eb-4ec9-a459-c65da7e4ab51")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.1976 86.36 0)
+			(at 82.4676 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,9 +2690,9 @@
 			)
 		)
 	)
-	(global_label "CANH"
+	(global_label "RSW05"
 		(shape input)
-		(at 215.9 88.9 180)
+		(at 25.4 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2283,9 +2700,31 @@
 			)
 			(justify right)
 		)
-		(uuid "b4f0eb25-1971-448f-9d58-dad53bca5838")
+		(uuid "37c78812-665f-4399-8c50-7c8764e28f6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.8952 88.9 0)
+			(at 16.0649 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW01"
+		(shape input)
+		(at 85.09 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38378b67-5a65-491b-b29a-f9780057e1ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7549 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2736,29 @@
 	)
 	(global_label "CAN_RX"
 		(shape input)
-		(at 207.01 44.45 180)
+		(at 50.8 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "391cd87b-791d-4d7a-9220-1a02b053e980")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.9214 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW04"
+		(shape input)
+		(at 25.4 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2305,9 +2766,9 @@
 			)
 			(justify right)
 		)
-		(uuid "bd71dadd-027b-42a6-b256-a54bd7c79fa1")
+		(uuid "4bc6373a-be45-47df-ac62-7020c16a50e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8886 44.45 0)
+			(at 16.0649 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2780,183 @@
 	)
 	(global_label "CANH"
 		(shape input)
-		(at 242.57 44.45 0)
+		(at 90.17 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54b75a36-5ee1-47c7-be35-ed932382abb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1652 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW07"
+		(shape input)
+		(at 25.4 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6401e828-789d-407f-90ae-18e63f238a08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0649 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW02"
+		(shape input)
+		(at 25.4 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "747ca587-d673-4def-9478-40466ad9e58e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0649 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADDR01"
+		(shape input)
+		(at 34.29 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7808609a-26c8-4409-afe7-03b1b44043f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.9872 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW08"
+		(shape input)
+		(at 25.4 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7aa7b1b7-3f19-41b1-b963-5be370a4f23c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0649 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW01"
+		(shape input)
+		(at 25.4 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e26363e-825f-4f01-b1a0-96ecc5bdb35a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0649 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW10"
+		(shape input)
+		(at 85.09 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e77cce6-13d6-47ed-9b82-b39417ce2fb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7549 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW09"
+		(shape input)
+		(at 25.4 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a2121fe-cfe6-4cdf-81d3-4987dc9349fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0649 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADDR03"
+		(shape input)
+		(at 50.8 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2327,46 +2964,400 @@
 			)
 			(justify left)
 		)
-		(uuid "bf72de44-7bc9-4505-aa96-50073c809ad4")
+		(uuid "8b388fef-eaa4-41ec-9626-b4b74cb758f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.5748 44.45 0)
+			(at 61.1028 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW10"
+		(shape input)
+		(at 25.4 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c4ed93d-01c4-4058-ac90-08378420f517")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0649 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADDR03"
+		(shape input)
+		(at 34.29 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91af42de-95f8-49f9-9537-5801e9cce5fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.9872 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape input)
+		(at 63.5 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9453e69c-452e-4a86-8845-8c1caaf835d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 45.3352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW03"
+		(shape input)
+		(at 25.4 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9611fdbd-0fcf-4f77-bfcd-11f66871fd2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0649 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW05"
+		(shape input)
+		(at 85.09 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b39f8b9-b629-4841-b460-fbac20c61a14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7549 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW02"
+		(shape input)
+		(at 85.09 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9be2940f-9936-439e-874d-491534e7f97d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7549 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW08"
+		(shape input)
+		(at 85.09 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abf114c5-c116-4b1e-9c75-ed493c507f5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7549 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape input)
+		(at 34.29 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3a70f35-cf00-4a13-8b85-3f2763459022")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.5876 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW06"
+		(shape input)
+		(at 25.4 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5b91607-3aa4-4033-9034-c291f6a14304")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0649 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape input)
+		(at 97.79 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c08a50eb-368b-4c57-92c8-8fb6b1e9f7bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.7948 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADDR02"
+		(shape input)
+		(at 50.8 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0300167-74cc-4be4-a062-ea684e906d8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.1028 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW07"
+		(shape input)
+		(at 85.09 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d38c2636-e09f-4d7d-805e-d71f50d7301f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7549 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RSW03"
+		(shape input)
+		(at 85.09 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4e0d4b2-acde-4195-af4e-a20f54d9ac1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7549 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADDR01"
+		(shape input)
+		(at 50.8 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e544d2ee-f2e3-4ea8-9ae0-2375c9d4507b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.1028 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_RX"
+		(shape input)
+		(at 69.85 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7c928b7-45a9-4924-b439-bf3031e27a5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.7286 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_TX"
+		(shape input)
+		(at 69.85 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb11ba0e-3c21-4e1b-b57c-3cf574a484c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.031 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
-		(lib_id "RF_Module:ESP32-C6-Super-Mini")
-		(at 140.97 62.23 0)
+		(lib_id "power:GND")
+		(at 85.09 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "10f37cbf-cc10-4166-a1ce-75c779837e8a")
-		(property "Reference" "U2"
-			(at 157.48 25.4 0)
+		(uuid "011674af-3330-43a2-8d27-58ee6968568e")
+		(property "Reference" "#PWR015"
+			(at 78.74 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "ESP32-C6-Super-Mini"
-			(at 157.48 27.94 0)
+		(property "Value" "GND"
+			(at 81.28 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-Super-Mini"
-			(at 140.97 62.23 0)
+		(property "Footprint" ""
+			(at 85.09 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +3366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 62.23 0)
+			(at 85.09 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,113 +3374,54 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 140.97 62.23 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "13"
-			(uuid "dd329e91-1c0c-4ed1-9ede-b084839922c8")
-		)
-		(pin "20"
-			(uuid "a8c4cd52-00c8-4598-814b-2480d0bafa16")
-		)
-		(pin "10"
-			(uuid "3913ca65-3466-4023-b4ab-c28a06d44128")
-		)
-		(pin "12"
-			(uuid "e0a78e9a-7916-4736-b4ea-a6d539dfe5e9")
-		)
-		(pin "9"
-			(uuid "f08ba77b-4476-41a8-b8c9-bd6afe5238ac")
-		)
-		(pin "8"
-			(uuid "29f258af-56e6-4afa-925b-f238b82a364f")
-		)
-		(pin "14"
-			(uuid "af78ba05-a793-41d3-9688-50b2934a7774")
-		)
-		(pin "17"
-			(uuid "16babd13-e245-49a9-bc6b-c8b92950f983")
-		)
-		(pin "16"
-			(uuid "148682c0-81ad-431d-b226-d74cc7fb3b45")
-		)
-		(pin "3"
-			(uuid "46d978e8-39c4-46cc-bf5a-576a0956dce2")
-		)
-		(pin "5"
-			(uuid "bc625048-dd69-4644-9c58-18920ceb1ac5")
 		)
 		(pin "1"
-			(uuid "f47016ee-48d6-4a27-a8a4-8933bc26ea8d")
-		)
-		(pin "4"
-			(uuid "30e478a8-93cf-412a-ad90-7dbefa15a549")
-		)
-		(pin "2"
-			(uuid "0c2989cb-7885-49c7-be25-a81f46b1b70f")
-		)
-		(pin "15"
-			(uuid "9304b24b-72ab-4e82-8456-16dfbfa6e257")
-		)
-		(pin "7"
-			(uuid "cfc8d19a-7c34-4ba6-b16f-65dacb18c718")
-		)
-		(pin "6"
-			(uuid "59bd377a-ebf3-477b-8dc4-714e6138ad0d")
-		)
-		(pin "18"
-			(uuid "d5f4f695-fc6a-4337-9133-a08f0b23880f")
-		)
-		(pin "11"
-			(uuid "ca329f83-69d0-407c-9930-4dcaab3dae5a")
-		)
-		(pin "19"
-			(uuid "30ba91d7-d885-49b3-afda-cf1bcec03fa1")
+			(uuid "f0c3b04c-be87-4215-b8bf-ba6c068184ad")
 		)
 		(instances
-			(project ""
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "U2")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 190.5 118.11 0)
+		(lib_id "Device:R")
+		(at 63.5 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1360dcd5-14da-4453-9e49-205d2271ae69")
-		(property "Reference" "J1"
-			(at 189.23 112.268 0)
+		(uuid "0c6a34df-5bfe-4074-b977-a77edf2a8457")
+		(property "Reference" "R2"
+			(at 65.786 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "DHT22"
-			(at 189.738 123.19 0)
+		(property "Value" "120"
+			(at 63.5 56.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 190.5 118.11 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 61.722 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +3430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 118.11 0)
+			(at 63.5 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,118 +3438,58 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 190.5 118.11 0)
+		(property "Description" "Resistor"
+			(at 63.5 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "8ca010df-78a9-4924-acaa-5e8a499448d5")
-		)
-		(pin "1"
-			(uuid "09220f8c-2546-4671-8cba-ae6256c42b18")
 		)
 		(pin "2"
-			(uuid "8338a7a6-3ccd-4a30-98eb-997da4ec6983")
+			(uuid "8fcd5dc2-5f26-4933-bf0b-bdda39a58cb6")
+		)
+		(pin "1"
+			(uuid "ee2c7056-d224-4657-9787-71c00ee06fac")
 		)
 		(instances
-			(project ""
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "J1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:AmazonBuckConverter")
-		(at 85.09 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18bba459-0b56-4510-b604-1264a9440875")
-		(property "Reference" "U1"
-			(at 86.36 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Amazon Buck Converter"
-			(at 96.266 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:AmazonBuckConverter"
-			(at 85.09 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6b885fd2-2ae2-480a-afaf-8f0b676f526f")
-		)
-		(pin "4"
-			(uuid "cb857909-0b40-454d-a68e-505874cd5c2a")
-		)
-		(pin "2"
-			(uuid "ac3e4f4c-66dd-4878-a3b8-60851d8f6bf3")
-		)
-		(pin "1"
-			(uuid "aa2c6e31-5250-44ea-a0d3-5b5693a417d9")
-		)
-		(instances
-			(project "AutomotiveEsp32C6WithCAN"
-				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 125.73 0)
+		(lib_id "TrailCurrentSymbolLibrary:ESP32-C6-SuperMini")
+		(at 25.4 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1df2cfc5-4be4-47e1-826e-1e12ece61f01")
-		(property "Reference" "#PWR09"
-			(at 172.72 132.08 0)
+		(uuid "13565190-045f-478b-84ca-002075aa50b2")
+		(property "Reference" "U6"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-C6-SuperMini"
+			(at 38.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:ESP32-C6-SuperMini_SMD"
+			(at 25.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,16 +3497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 172.72 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 125.73 0)
+		(property "Datasheet" "https://www.espboards.dev/esp32/esp32-c6-super-mini/"
+			(at 25.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,8 +3506,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 172.72 125.73 0)
+		(property "Description" "ESP32-C6 Super Mini Development Board, WiFi 6, BLE 5, Zigbee, Thread"
+			(at 25.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,22 +3515,322 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 125.73 0)
+		(property "Manufacturer_Name" "Teyleten Robot"
+			(at 25.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "LCSC Part" "C5364646"
+			(at 25.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "1904-ESP32-C6FH4CT-ND"
+			(at 25.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "356-ESP32-C6FH4"
+			(at 25.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "8f40f79b-ecd8-46ec-acf8-68e149b559c8")
+		)
+		(pin "20"
+			(uuid "b067b74a-0088-4239-90ed-54ecae7485de")
+		)
+		(pin "8"
+			(uuid "6dc18a55-31da-432d-8896-7e5ea190addc")
+		)
+		(pin "12"
+			(uuid "55745aaa-cdf1-4fe8-a491-b9201ab3f45b")
+		)
+		(pin "19"
+			(uuid "f06c2853-9ccb-4433-8a55-ca42af16f3d4")
+		)
+		(pin "15"
+			(uuid "1db696af-6c7e-4d30-bb06-78f93c45a8c6")
+		)
+		(pin "17"
+			(uuid "b4ca3b58-c652-43a4-98e8-731326359188")
+		)
+		(pin "7"
+			(uuid "98aac3d6-d13a-4f7a-837a-9803b1fdeebb")
+		)
+		(pin "6"
+			(uuid "7cd24e2f-27e4-41e0-acac-a47727016057")
+		)
+		(pin "5"
+			(uuid "f3db0bd5-e03d-42d1-ac0a-2afa156cbbe0")
+		)
+		(pin "4"
+			(uuid "1c2320af-abf6-43dc-823f-07d3f7a0988c")
+		)
+		(pin "3"
+			(uuid "87937b2e-a236-4058-951e-8f4a3e62cfc4")
+		)
+		(pin "2"
+			(uuid "91921c39-2089-4c58-bdb9-c4293149b0a5")
 		)
 		(pin "1"
-			(uuid "a2dc11ea-f562-42b9-91f0-990b132dd552")
+			(uuid "6e650ad0-7c97-48d1-8635-6bfe6aeb703b")
+		)
+		(pin "14"
+			(uuid "6e76ca1b-e90d-4585-bf80-b6bdc808062f")
+		)
+		(pin "13"
+			(uuid "2c93201f-b431-4848-962d-6931d93bf374")
+		)
+		(pin "11"
+			(uuid "438c64c9-9e2a-45a0-8aac-1a02403a2239")
+		)
+		(pin "18"
+			(uuid "9506463b-cede-4baa-97f2-3fc95bde47a1")
+		)
+		(pin "16"
+			(uuid "09b6acd0-a5f8-4beb-aba9-e6ef999f79e9")
+		)
+		(pin "10"
+			(uuid "c371888b-c61b-4f5f-821b-f740c97c451c")
 		)
 		(instances
-			(project "TrailCurrentAirQualityModule"
+			(project ""
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "#PWR09")
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrailCurrentSymbolLibrary:S2B-XH-SM4-TB")
+		(at 92.71 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19690a63-f35e-44c5-b17c-790d956d8761")
+		(property "Reference" "J3"
+			(at 99.06 37.9796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-XH-SM4-TB"
+			(at 99.06 40.5196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:JST_S2B-XH-SM4-TB"
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH 2-pin SMD Connector, 2.50mm Pitch, Horizontal"
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff43a3e4-4519-4c68-b787-be96bf80e423")
+		)
+		(pin "1"
+			(uuid "d0f2f25f-c09a-4a6f-abc4-62d81814ca3e")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrailCurrentSymbolLibrary:S2B-XH-SM4-TB")
+		(at 92.71 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22a310dd-fb89-44bf-9402-92be0d27b0c3")
+		(property "Reference" "J6"
+			(at 99.06 62.1096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-XH-SM4-TB"
+			(at 99.06 64.6496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:JST_S2B-XH-SM4-TB"
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH 2-pin SMD Connector, 2.50mm Pitch, Horizontal"
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da013aec-3404-4f40-a1cd-a45416ed42ad")
+		)
+		(pin "1"
+			(uuid "40b52f64-ed70-4dab-8e59-bab14651ebba")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2674,7 +3838,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 83.82 270)
+		(at 90.17 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2683,7 +3847,7 @@
 		(fields_autoplaced yes)
 		(uuid "331e29bf-b6e2-462c-84b6-ff8009d48b64")
 		(property "Reference" "#PWR07"
-			(at 209.55 83.82 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +3856,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 83.8199 90)
+			(at 86.36 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +3865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 83.82 0)
+			(at 90.17 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +3874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 83.82 0)
+			(at 90.17 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +3883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 83.82 0)
+			(at 90.17 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +3895,7 @@
 			(uuid "53b927cf-53f8-4e41-bd9d-92ea40cf4644")
 		)
 		(instances
-			(project "AutomotiveEsp32C6WithCAN"
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
 					(reference "#PWR07")
 					(unit 1)
@@ -2740,8 +3904,116 @@
 		)
 	)
 	(symbol
+		(lib_id "TrailCurrentSymbolLibrary:S2B-XH-SM4-TB")
+		(at 92.71 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33693d9e-a1c4-403a-b911-604b68775b9a")
+		(property "Reference" "J11"
+			(at 99.06 100.2096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-XH-SM4-TB"
+			(at 99.06 102.7496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:JST_S2B-XH-SM4-TB"
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH 2-pin SMD Connector, 2.50mm Pitch, Horizontal"
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a67c79c-e8a4-4ae6-b739-3dc83cce319a")
+		)
+		(pin "1"
+			(uuid "9074f917-eaa5-4439-ac58-8b1762b5f207")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 201.93 49.53 270)
+		(at 105.41 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2750,7 +4022,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c08671e-59b7-4828-b4b7-453095c8941b")
 		(property "Reference" "#PWR0103"
-			(at 195.58 49.53 0)
+			(at 111.76 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +4031,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 49.5299 90)
+			(at 109.22 170.1801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +4040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 49.53 0)
+			(at 105.41 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +4049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 49.53 0)
+			(at 105.41 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +4058,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 49.53 0)
+			(at 105.41 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +4070,7 @@
 			(uuid "7b74eb74-799f-41a8-af2d-db9027372ff5")
 		)
 		(instances
-			(project "AutomotiveEsp32C6WithCAN"
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
 					(reference "#PWR0103")
 					(unit 1)
@@ -2807,16 +4079,192 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 40.64 270)
+		(lib_id "TrailCurrentSymbolLibrary:S2B-XH-SM4-TB")
+		(at 92.71 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "442d56e3-af49-435c-8345-93c0bcb7d10e")
-		(property "Reference" "#PWR01"
-			(at 69.85 40.64 0)
+		(fields_autoplaced yes)
+		(uuid "3da27064-1493-44cc-b91e-3879e9bf3ef7")
+		(property "Reference" "J10"
+			(at 99.06 92.5896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-XH-SM4-TB"
+			(at 99.06 95.1296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:JST_S2B-XH-SM4-TB"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH 2-pin SMD Connector, 2.50mm Pitch, Horizontal"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42f1ec71-929c-4045-b596-705b219cc1a9")
+		)
+		(pin "1"
+			(uuid "fb981a00-804d-4bfa-a232-ee787dad3415")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f9bf7c5-3173-417d-88e0-04fb77e47640")
+		(property "Reference" "#PWR04"
+			(at 46.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 54.61 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da70997e-46be-48ca-8b2e-844407ae0535")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4456521e-52ec-4880-be17-f6b4eb22c37c")
+		(property "Reference" "#PWR019"
+			(at 78.74 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,15 +4273,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 70.612 40.64 90)
+			(at 81.28 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 40.64 0)
+			(at 85.09 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +4291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 40.64 0)
+			(at 85.09 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +4300,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 40.64 0)
+			(at 85.09 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,103 +4309,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "683b5882-39b6-423f-9ddf-cec507285e92")
+			(uuid "8c64e94f-e69d-4624-afec-2279031eb3f7")
 		)
 		(instances
-			(project "AutomotiveEsp32C6WithCAN"
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LCSC:ZX-XH2.54-4PWT")
-		(at 219.71 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50ee4206-543f-4d5c-b472-ee6a0eb01c6f")
-		(property "Reference" "U4"
-			(at 226.06 83.1849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ZX-XH2.54-4PWT"
-			(at 226.06 85.7249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-SMD_4P-P2.50-WAFER-254W-4P"
-			(at 219.71 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C7429673"
-			(at 219.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "82c52e8e-8562-4e69-a36a-4fd356b532a0")
-		)
-		(pin "5"
-			(uuid "e4e7b4b2-c853-45ec-88c5-c9d614e3b61d")
-		)
-		(pin "3"
-			(uuid "15d271ab-b00c-41ca-a3e5-1f77ecb4b227")
-		)
-		(pin "2"
-			(uuid "f1d63c8a-2bf1-4ce2-b041-70e2928e39da")
-		)
-		(pin "4"
-			(uuid "b7727f0e-810b-456a-9f87-19fc0494bf37")
-		)
-		(pin "1"
-			(uuid "df4b737f-efa7-4451-aebb-e2c703f8c3fd")
-		)
-		(instances
-			(project ""
-				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "U4")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2964,15 +4322,15 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 76.2 38.1 90)
+		(at 27.94 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "65565617-19dd-4d36-b240-d47169be267b")
-		(property "Reference" "#PWR02"
-			(at 80.01 38.1 0)
+		(uuid "44b6234a-7ea0-46b2-af6c-fbec50b4b0d4")
+		(property "Reference" "#PWR05"
+			(at 31.75 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,7 +4339,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 70.612 38.1 90)
+			(at 22.352 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +4347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 38.1 0)
+			(at 27.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +4356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 38.1 0)
+			(at 27.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +4365,623 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 76.2 38.1 0)
+			(at 27.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d46fec18-9c32-4eb9-8902-faa86e833521")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49686eb8-e1d5-43d2-9389-efb91441c7f1")
+		(property "Reference" "#PWR020"
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2089557d-572c-41db-8cb9-736b3efe7442")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrailCurrentSymbolLibrary:S2B-XH-SM4-TB")
+		(at 92.71 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a83a24d-c3d2-4fa1-b07e-3c9e5c47ae2f")
+		(property "Reference" "J4"
+			(at 99.06 46.8696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-XH-SM4-TB"
+			(at 99.06 49.4096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:JST_S2B-XH-SM4-TB"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH 2-pin SMD Connector, 2.50mm Pitch, Horizontal"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f3fbf3f-0dd8-4c33-bea8-c916551f2fa9")
+		)
+		(pin "1"
+			(uuid "6dba483b-ae19-470a-83ba-d2305d15d811")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 53.34 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57513fe0-f876-4dc5-a2b5-c7f5c57f1b68")
+		(property "Reference" "#PWR03"
+			(at 49.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 57.15 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43e81d12-7d2b-4c9b-82ec-0765b06de93b")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "595b7d18-90f7-4142-8b8c-82241eb134a3")
+		(property "Reference" "#PWR031"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cc61ee1-7238-4a54-ada0-854735d82e19")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrailCurrentSymbolLibrary:S2B-XH-SM4-TB")
+		(at 92.71 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fd17c7d-d7c6-41cd-9956-b4f9b64db164")
+		(property "Reference" "J7"
+			(at 99.06 69.7296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-XH-SM4-TB"
+			(at 99.06 72.2696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:JST_S2B-XH-SM4-TB"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH 2-pin SMD Connector, 2.50mm Pitch, Horizontal"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "947b93d5-2441-48d2-a3a8-12e8e9a98070")
+		)
+		(pin "1"
+			(uuid "885e62a3-c991-4142-99c7-6559d1938e59")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61de2669-3462-4702-8fe8-ac98debdf472")
+		(property "Reference" "#PWR030"
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24060418-af7b-4147-b7e7-0125bc97f24b")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6535a518-909a-43ab-9abc-1a2d8c0ba689")
+		(property "Reference" "#PWR032"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "724e82af-0a55-48cf-b0f2-7b8733c90eb1")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 27.94 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65565617-19dd-4d36-b240-d47169be267b")
+		(property "Reference" "#PWR02"
+			(at 31.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 22.352 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 27.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +4993,7 @@
 			(uuid "2cdbbe9b-f49b-45f6-b237-7fc2ed6317d7")
 		)
 		(instances
-			(project "AutomotiveEsp32C6WithCAN"
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
 					(reference "#PWR02")
 					(unit 1)
@@ -3028,17 +5002,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 162.56 110.49 0)
+		(lib_id "TrailCurrentSymbolLibrary:SN65HVD230DR")
+		(at 69.85 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68c00d25-7bb8-4aa4-86de-e971149bde9e")
-		(property "Reference" "#PWR010"
-			(at 162.56 114.3 0)
+		(uuid "6cbf4c47-2241-4984-9724-7ef67959d6b7")
+		(property "Reference" "IC1"
+			(at 83.82 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN65HVD230DR"
+			(at 83.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:SN65HVD230DR"
+			(at 93.98 257.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn65hvd230"
+			(at 93.98 357.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3 V CAN Transceiver with Standby Mode"
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,16 +5056,38 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 162.56 105.41 0)
+		(property "Height" "1.75"
+			(at 93.98 557.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 162.56 110.49 0)
+		(property "Mouser Part Number" "595-SN65HVD230DR"
+			(at 93.98 657.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN65HVD230DR?qs=QViXGNcIEAtifeQR3pYVUQ%3D%3D"
+			(at 93.98 757.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C12084"
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,8 +5095,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 162.56 110.49 0)
+		(property "DigiKey Part Number" "296-11654-1-ND"
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,110 +5104,54 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 162.56 110.49 0)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 93.98 857.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "1867a77d-5f9f-4143-9ef2-624edaefad2a")
-		)
-		(instances
-			(project "TrailCurrentAirQualityModule"
-				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_CAN_LIN:SN65HVD230")
-		(at 223.52 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6feaace1-3144-44f3-9f50-c54ea216bc49")
-		(property "Reference" "U3"
-			(at 225.6633 34.29 0)
+		(property "Manufacturer_Part_Number" "SN65HVD230DR"
+			(at 93.98 957.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN65HVD230"
-			(at 225.6633 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 223.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf"
-			(at 220.98 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8"
-			(at 223.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "8"
-			(uuid "88c832d5-7f8d-4217-b9a6-b3ea1c91f8b8")
-		)
-		(pin "3"
-			(uuid "90a79ca6-04c8-4a67-97d5-d20f6ac6ff44")
+			(uuid "45da9a9a-9da4-447c-a584-47cd33bee6a2")
 		)
 		(pin "7"
-			(uuid "1b61226c-6361-4cf8-b2de-d6ed570e9a5d")
-		)
-		(pin "2"
-			(uuid "b958397f-44df-4fdd-9deb-0d7e77248055")
-		)
-		(pin "6"
-			(uuid "1c7eb34d-01bc-4ff1-8d3b-c7facc9e92ed")
-		)
-		(pin "5"
-			(uuid "710ae2a4-bfac-42a5-ab3b-573501a25c32")
+			(uuid "6897486e-1d94-4cb4-bfd7-89f67fb77f4f")
 		)
 		(pin "4"
-			(uuid "e2a5c987-df59-4e3d-9a4f-fe407c9e3226")
+			(uuid "595e8815-77ad-450e-9a40-3b40a170db6e")
+		)
+		(pin "6"
+			(uuid "bd827d53-5a64-4f55-bee7-d7e5d87e6887")
+		)
+		(pin "2"
+			(uuid "ba4f2da0-c5ab-4607-9771-ef4073a0c282")
 		)
 		(pin "1"
-			(uuid "d90375f9-f4c6-4833-adca-d9e014092c7e")
+			(uuid "e2eb891e-2a86-4dde-bc7f-99ec93e47c1c")
+		)
+		(pin "5"
+			(uuid "47538017-af8d-4828-9da6-d0db01d58e83")
+		)
+		(pin "3"
+			(uuid "963446d2-f3f9-4ce7-9a08-8f7df8504273")
 		)
 		(instances
-			(project "AutomotiveEsp32C6WithCAN"
+			(project ""
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "U3")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -3183,7 +5159,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 144.78 90.17 0)
+		(at 176.53 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3192,7 +5168,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b3eef6d-7f47-462b-849f-536944324c84")
 		(property "Reference" "H4"
-			(at 147.32 88.8999 0)
+			(at 179.07 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +5177,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 147.32 91.4399 0)
+			(at 179.07 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +5186,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 144.78 90.17 0)
+			(at 176.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +5195,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 90.17 0)
+			(at 176.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +5204,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 144.78 90.17 0)
+			(at 176.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,95 +5222,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 173.99 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89973918-a1c6-4281-8cc5-7f01d91c0984")
-		(property "Reference" "C1"
-			(at 170.688 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 167.64 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 174.9552 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 173.99 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2587ce8b-befd-4d4a-93eb-f30e2a022f73")
-		)
-		(pin "2"
-			(uuid "ea558463-ec2e-4d83-9601-49790a737e44")
-		)
-		(instances
-			(project ""
-				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 170.18 99.06 90)
+		(lib_id "TrailCurrentSymbolLibrary:S2B-XH-SM4-TB")
+		(at 92.71 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9856a1e8-55ba-4e02-8a72-ecdc39ad309e")
-		(property "Reference" "#PWR08"
-			(at 173.99 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 166.37 99.0599 90)
+		(uuid "80ed2f9c-b989-44d5-a6a6-a27587cd4653")
+		(property "Reference" "J8"
+			(at 99.06 77.3496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,8 +5240,27 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 170.18 99.06 0)
+		(property "Value" "S2B-XH-SM4-TB"
+			(at 99.06 79.8896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:JST_S2B-XH-SM4-TB"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,8 +5268,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 170.18 99.06 0)
+		(property "Description" "JST XH 2-pin SMD Connector, 2.50mm Pitch, Horizontal"
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,22 +5277,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 170.18 99.06 0)
+		(property "MANUFACTURER" "JST"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4464038d-2cdd-4fa0-af23-a7781ebaa4bb")
 		)
 		(pin "1"
-			(uuid "41989f97-198e-40c4-8d90-2f59a410b15f")
+			(uuid "8ec2dd4e-407a-49f0-bdb9-355342099b42")
 		)
 		(instances
-			(project "TrailCurrentAirQualityModule"
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "#PWR08")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3383,16 +5331,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 48.26 0)
+		(at 59.69 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2e896e9-fbcc-4465-8a48-9831c19f8157")
-		(property "Reference" "#PWR04"
-			(at 113.03 54.61 0)
+		(uuid "88be0f3a-4d9c-481e-9da4-68ebdc6dc8ab")
+		(property "Reference" "#PWR011"
+			(at 53.34 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,15 +5348,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 53.34 0)
+			(at 58.674 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 48.26 0)
+			(at 59.69 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +5366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 48.26 0)
+			(at 59.69 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +5375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 48.26 0)
+			(at 59.69 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,47 +5384,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "9eef73ce-ce7c-4326-97fe-a81a1eb3eb7b")
+			(uuid "1cc267f9-e254-43a7-86f1-69eeb492a3cc")
 		)
 		(instances
-			(project "AutomotiveEsp32C6WithCAN"
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 162.56 114.3 0)
+		(lib_id "power:+3.3V")
+		(at 50.8 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b8389567-20cd-4181-9bf5-699845b9c5b7")
-		(property "Reference" "R2"
-			(at 165.1 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7K"
-			(at 165.1 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 160.782 114.3 90)
+		(uuid "a0d0a1c9-582b-4c96-8ae1-834b81d2ccd7")
+		(property "Reference" "#PWR028"
+			(at 46.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,8 +5414,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 162.56 114.3 0)
+		(property "Value" "+3.3V"
+			(at 54.61 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,8 +5432,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 162.56 114.3 0)
+		(property "Datasheet" ""
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 50.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,15 +5451,656 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ae20ee3-3b0d-49bb-b16d-3ccf436e15ec")
+			(uuid "015cf899-0b42-4e36-a432-1bd7c084a242")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6c44015-b156-452e-b85f-ca6ffca25df7")
+		(property "Reference" "#PWR018"
+			(at 78.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42810048-8c56-4bc3-949e-dedec8bddbaa")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a880cca2-c1bd-4755-ab3f-f71cc3343088")
+		(property "Reference" "#PWR016"
+			(at 78.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed72ce4c-f877-4c22-ab32-01860dc72237")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrailCurrentSymbolLibrary:S2B-XH-SM4-TB")
+		(at 92.71 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab23eb82-aa4d-428c-9a33-c885e9e7658c")
+		(property "Reference" "J9"
+			(at 99.06 84.9696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-XH-SM4-TB"
+			(at 99.06 87.5096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:JST_S2B-XH-SM4-TB"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH 2-pin SMD Connector, 2.50mm Pitch, Horizontal"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "678d3bfd-5a70-4bc0-9269-4cb4af6c33d1")
+			(uuid "5df082dc-2860-4278-854e-52babbfdc82a")
+		)
+		(pin "1"
+			(uuid "70fde880-5867-4e61-9a35-9c1e4f20ef89")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acbc06e1-b2c5-4789-b918-08e1b5da5697")
+		(property "Reference" "#PWR021"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4ebf64b-f6d4-4f53-bb43-948309b71481")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aea10521-5905-4fd6-912d-669f111493e3")
+		(property "Reference" "#PWR017"
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "affb06c5-1e34-4951-8747-1a3da6413b6a")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrailCurrentSymbolLibrary:Mini560")
+		(at 27.94 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1355322-dfd6-4166-b31f-31a1cf562464")
+		(property "Reference" "U5"
+			(at 40.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mini560"
+			(at 40.64 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:Mini560"
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mini560 DC-DC Buck Converter Module, 5A, 7-20V to 3.3/5/9/12V"
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Generic"
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "Mini560"
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "61ccad39-6f2f-44be-ab9c-fb2035481e55")
+		)
+		(pin "8"
+			(uuid "4a67c665-f0e9-44ec-a8ac-a362279fd8e1")
+		)
+		(pin "9"
+			(uuid "04b689a0-bfba-44e5-bca4-0d3af5c48da2")
+		)
+		(pin "5"
+			(uuid "7950ed17-9738-4e89-bcbf-b64fde84065d")
+		)
+		(pin "2"
+			(uuid "f2dc032a-3fe3-41ae-a24f-81972a399b67")
+		)
+		(pin "1"
+			(uuid "ee3932fb-ac70-4f58-9eff-9f92acd4d322")
+		)
+		(pin "6"
+			(uuid "28c76ee2-c702-44c5-9a74-7ed3d37f1baa")
+		)
+		(pin "3"
+			(uuid "43fe31fb-752d-48f6-890f-9c1b074161d3")
+		)
+		(pin "4"
+			(uuid "01b43c4c-47f3-41be-a9d6-87a611e3ff3d")
 		)
 		(instances
 			(project ""
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "R2")
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3063aef-bad3-44d1-9e19-4a2916d8678f")
+		(property "Reference" "#PWR010"
+			(at 21.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b3c3844-0bce-4b9d-8636-6021137a85ba")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b77bbd22-be95-480e-bee7-677d316d06d6")
+		(property "Reference" "#PWR09"
+			(at 21.59 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f84d0f28-2a12-4df0-9276-02cf0cb12e47")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3519,7 +6108,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 123.19 90.17 0)
+		(at 154.94 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3528,7 +6117,7 @@
 		(fields_autoplaced yes)
 		(uuid "b907b73c-1878-4384-9a41-7c5d32baf178")
 		(property "Reference" "H3"
-			(at 125.73 88.8999 0)
+			(at 157.48 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +6126,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 125.73 91.4399 0)
+			(at 157.48 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +6135,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 123.19 90.17 0)
+			(at 154.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +6144,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 90.17 0)
+			(at 154.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +6153,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 123.19 90.17 0)
+			(at 154.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +6172,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 123.19 82.55 0)
+		(at 154.94 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3592,7 +6181,7 @@
 		(fields_autoplaced yes)
 		(uuid "b90f0544-5967-4f1b-8674-6b5c538398d6")
 		(property "Reference" "H1"
-			(at 125.73 81.2799 0)
+			(at 157.48 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +6190,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 125.73 83.8199 0)
+			(at 157.48 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,7 +6199,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 123.19 82.55 0)
+			(at 154.94 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,7 +6208,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 82.55 0)
+			(at 154.94 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +6217,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 123.19 82.55 0)
+			(at 154.94 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,17 +6235,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 113.03 38.1 270)
+		(lib_id "power:GND")
+		(at 50.8 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c4d0fd57-718f-4a39-b9cd-5d393275d88c")
-		(property "Reference" "#PWR03"
-			(at 109.22 38.1 0)
+		(uuid "c6bb73ec-9e39-43e8-b247-964d601c04cc")
+		(property "Reference" "#PWR08"
+			(at 57.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,17 +6253,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 116.84 38.0999 90)
+		(property "Value" "GND"
+			(at 54.61 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 38.1 0)
+			(at 50.8 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +6272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 38.1 0)
+			(at 50.8 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,8 +6280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 113.03 38.1 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,38 +6290,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b5a44b7-643c-4131-9064-4009b8bfca8e")
+			(uuid "49084d77-f53e-47e3-bd84-87e37cb7d7cc")
 		)
 		(instances
-			(project ""
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 215.9 81.28 90)
+		(lib_id "TrailCurrentSymbolLibrary:S2B-XH-SM4-TB")
+		(at 92.71 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d11ebaf1-29e0-4ebe-ad3a-ce45c2f2ef68")
-		(property "Reference" "#PWR06"
-			(at 219.71 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 212.09 81.2799 90)
+		(uuid "c9c1292f-4802-43e7-abec-6656ea390be4")
+		(property "Reference" "J2"
+			(at 99.06 29.0896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,8 +6320,125 @@
 				(justify left)
 			)
 		)
+		(property "Value" "S2B-XH-SM4-TB"
+			(at 99.06 31.6296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:JST_S2B-XH-SM4-TB"
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH 2-pin SMD Connector, 2.50mm Pitch, Horizontal"
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2d4d04a-5c32-47b4-83d5-352f0b241842")
+		)
+		(pin "1"
+			(uuid "3be48df8-ce3c-4087-aa28-5ca8dd17601f")
+		)
+		(instances
+			(project ""
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9e07b64-1880-4692-a3aa-5e9ff03528bb")
+		(property "Reference" "#PWR012"
+			(at 59.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" ""
-			(at 215.9 81.28 0)
+			(at 53.34 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +6447,179 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 81.28 0)
+			(at 53.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b69df6f1-534e-48b0-a4e0-497f483f8000")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrailCurrentSymbolLibrary:S4B-XH-SM4-TB")
+		(at 97.79 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0b9f906-9ae6-466b-93cf-05d7255feb35")
+		(property "Reference" "J1"
+			(at 104.14 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S4B-XH-SM4-TB"
+			(at 104.14 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:JST_S4B-XH-SM4-TB"
+			(at 97.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 97.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH 4-pin SMD Connector, 2.50mm Pitch, Horizontal"
+			(at 97.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C161861"
+			(at 97.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "455-2262-1-ND"
+			(at 97.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 97.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "01e50763-022a-45f9-b3fd-761da7d70a96")
+		)
+		(pin "3"
+			(uuid "ae34bfb0-5bdf-440d-a20a-d4ce3f07f51e")
+		)
+		(pin "2"
+			(uuid "8f571f95-a546-4512-9f1e-f33d97ddda5d")
+		)
+		(pin "1"
+			(uuid "4937b1b9-e1f4-486b-af16-9958072f2014")
+		)
+		(instances
+			(project ""
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 90.17 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d11ebaf1-29e0-4ebe-ad3a-ce45c2f2ef68")
+		(property "Reference" "#PWR06"
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 86.36 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +6628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 215.9 81.28 0)
+			(at 90.17 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +6640,7 @@
 			(uuid "1af9b696-2ec9-49ed-babb-068270d6add0")
 		)
 		(instances
-			(project "AutomotiveEsp32C6WithCAN"
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
 					(reference "#PWR06")
 					(unit 1)
@@ -3780,8 +6649,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 85.09 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5bc7f84-1780-438d-a04e-fcc2cc6b4397")
+		(property "Reference" "#PWR022"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9701de60-f368-43a9-aace-577147c3240b")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 144.78 82.55 0)
+		(at 176.53 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3790,7 +6726,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7ad84c8-1ab8-45cc-bcce-900f5bd79fc5")
 		(property "Reference" "H2"
-			(at 147.32 81.2799 0)
+			(at 179.07 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,7 +6735,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 147.32 83.8199 0)
+			(at 179.07 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +6744,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 144.78 82.55 0)
+			(at 176.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +6753,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 82.55 0)
+			(at 176.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +6762,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 144.78 82.55 0)
+			(at 176.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +6781,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 223.52 36.83 0)
+		(at 49.53 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3854,7 +6790,7 @@
 		(fields_autoplaced yes)
 		(uuid "db1a2f43-8c01-4002-a994-1ba6aac0b0bc")
 		(property "Reference" "#PWR0102"
-			(at 223.52 40.64 0)
+			(at 53.34 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +6799,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 223.52 31.75 0)
+			(at 48.26 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +6807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 36.83 0)
+			(at 49.53 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +6816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 36.83 0)
+			(at 49.53 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +6825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 223.52 36.83 0)
+			(at 49.53 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +6837,7 @@
 			(uuid "d7698f1f-6a20-4439-bf36-0b00ea272718")
 		)
 		(instances
-			(project "AutomotiveEsp32C6WithCAN"
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
 					(reference "#PWR0102")
 					(unit 1)
@@ -3911,16 +6847,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 57.15 0)
+		(at 53.34 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e752ba1a-03ec-4ee2-b272-221c33ef357f")
-		(property "Reference" "#PWR0101"
-			(at 223.52 63.5 0)
+		(uuid "dfdc83c6-b7d4-4956-91b5-fbfd45289948")
+		(property "Reference" "#PWR013"
+			(at 59.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,15 +6865,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 62.23 0)
+			(at 57.15 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 57.15 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3946,7 +6883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 57.15 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +6892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 57.15 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,12 +6901,367 @@
 			)
 		)
 		(pin "1"
-			(uuid "a2aaed2d-b7f9-447b-ab06-385f92aeaafc")
+			(uuid "2aee229e-4f7f-4128-87c0-6a75c0030da3")
 		)
 		(instances
-			(project "AutomotiveEsp32C6WithCAN"
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "#PWR0101")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 53.34 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e10e6fc2-aeb8-4816-a58a-f5d3073b6474")
+		(property "Reference" "#PWR01"
+			(at 49.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 57.15 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 53.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f9029b-6600-4c08-a405-6b08102d9cdc")
+		)
+		(instances
+			(project ""
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8ce57d9-2412-4f5d-9f12-c4a7de70fd8a")
+		(property "Reference" "#PWR014"
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1f3ed9b-d98a-44b6-a1f2-cee0e288fe75")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrailCurrentSymbolLibrary:S2B-XH-SM4-TB")
+		(at 92.71 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ece8b8b4-15f7-4585-9116-600fce05c648")
+		(property "Reference" "J5"
+			(at 99.06 54.4896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-XH-SM4-TB"
+			(at 99.06 57.0296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:JST_S2B-XH-SM4-TB"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST XH 2-pin SMD Connector, 2.50mm Pitch, Horizontal"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed7bdd14-2bba-4daa-92d3-930803fa0da6")
+		)
+		(pin "1"
+			(uuid "ec48085c-8264-4f12-a68f-50fd3306fa2d")
+		)
+		(instances
+			(project "TrailCurrentCabinetAndDoorSensorModule"
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrailCurrentSymbolLibrary:DS-04")
+		(at 41.91 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd185d9-83ab-4bec-9784-0c0fd8463649")
+		(property "Reference" "SW1"
+			(at 41.91 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS-04"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrailCurrentFootprints:DS-04"
+			(at 41.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ebay.com/itm/203965125020"
+			(at 41.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Position DIP Slide Switch, SPST, 2.54mm Pitch, DIP-8"
+			(at 41.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.5"
+			(at 41.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Generic"
+			(at 41.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DS-04"
+			(at 41.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f938b278-597e-4b6a-9579-df295b891640")
+		)
+		(pin "8"
+			(uuid "bd02f08c-939e-45c0-a492-4abfbf2faa6d")
+		)
+		(pin "3"
+			(uuid "845eb8bd-ae18-4d11-b2dc-098f0aaddbbb")
+		)
+		(pin "2"
+			(uuid "51870985-0b15-4249-90bf-6c40ae55161b")
+		)
+		(pin "1"
+			(uuid "64b1cc1c-c3e2-4b2b-9044-385df3a72548")
+		)
+		(pin "4"
+			(uuid "78a84380-1c7e-44ae-ae7b-82ea668b59d5")
+		)
+		(pin "6"
+			(uuid "0a819418-90b7-4308-bf32-7b2d0d069391")
+		)
+		(pin "7"
+			(uuid "7f19a115-8fb6-4151-a3f2-90c476ac98f2")
+		)
+		(instances
+			(project ""
+				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3977,7 +7269,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 49.53 90)
+		(at 101.6 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3985,7 +7277,7 @@
 		(dnp no)
 		(uuid "f6ac7cbe-7833-47e9-a5e3-a24b35971336")
 		(property "Reference" "R1"
-			(at 204.47 47.244 90)
+			(at 102.87 172.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +7285,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 205.486 49.53 90)
+			(at 101.854 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +7293,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 205.74 51.308 90)
+			(at 101.6 168.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +7302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 49.53 0)
+			(at 101.6 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +7311,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 205.74 49.53 0)
+			(at 101.6 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +7326,7 @@
 			(uuid "377ab6ba-3b42-4255-be6b-4a887cd70d4f")
 		)
 		(instances
-			(project "AutomotiveEsp32C6WithCAN"
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
 					(reference "R1")
 					(unit 1)
@@ -4043,17 +7335,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 168.91 34.29 270)
+		(lib_id "power:GND")
+		(at 85.09 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe790fcd-3dd2-4144-ab64-32a9cfbdac7d")
-		(property "Reference" "#PWR05"
-			(at 165.1 34.29 0)
+		(uuid "ff5f99cc-5124-418c-ba74-a3a100e65a1c")
+		(property "Reference" "#PWR023"
+			(at 78.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,17 +7353,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 172.72 34.2899 90)
+		(property "Value" "GND"
+			(at 81.28 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 34.29 0)
+			(at 85.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +7372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 34.29 0)
+			(at 85.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,8 +7380,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 168.91 34.29 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,12 +7390,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bdb7a945-bbf5-493b-81a5-572833770672")
+			(uuid "1872cb09-9159-40e5-a2ef-687551c9d589")
 		)
 		(instances
-			(project "TrailCurrentAirQualityModule"
+			(project "TrailCurrentCabinetAndDoorSensorModule"
 				(path "/ecf56a1a-1269-4e46-bc3e-998516b4714d"
-					(reference "#PWR05")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
