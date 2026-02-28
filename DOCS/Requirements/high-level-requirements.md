@@ -86,7 +86,7 @@ To design and implement a reliable, low-power, and cost-effective microcontrolle
 | Arduino | Framework used for firmware |
 | KiCAD | EDA Design tool for schematic and PCB |
 | FreeCAD | CAD tool used for enclosure design |
-| Version Control | Gitea for repo and source control |
+| Version Control | Git with GitHub for repo and source control |
 | Documentation Tools | Markdown |
 
 ---
